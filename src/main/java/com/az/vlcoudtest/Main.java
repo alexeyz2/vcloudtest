@@ -1,5 +1,7 @@
 package com.az.vlcoudtest;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public boolean doIt() {
@@ -7,8 +9,9 @@ public class Main {
         System.out.println("Its a bit vCloudy today");
         System.out.println("Thanks to God its Friday");
 
-        return true;
+        new ArrayList<>().stream();
 
+        return true;
     }
 
     public static void main(String[] args) {
