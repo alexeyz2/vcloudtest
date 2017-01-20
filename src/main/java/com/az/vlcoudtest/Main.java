@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Its a bit vCloudy today");
         System.out.println("Thanks to God its Friday");
 
-        new ArrayList<>().stream();
+        new ArrayList<>().forEach(System.out::println);
 
         return true;
     }
