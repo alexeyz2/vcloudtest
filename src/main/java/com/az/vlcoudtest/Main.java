@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Its a bit vCloudy today");
         System.out.println("Thanks to God its Friday");
         System.out.println("vCloud knows how to wait...");
-        System.out.println("123");
+        System.out.println("1234");
 
         return true;
     }
