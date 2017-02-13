@@ -9,6 +9,7 @@ public class Main {
     void nonFinalMethod(String s1) {
         s1 = "222";
         s1 = "222";
+        s1 = "333";
     }
 
     long v1 = 2 * 100;
