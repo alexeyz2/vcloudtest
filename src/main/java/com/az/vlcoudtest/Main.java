@@ -10,6 +10,10 @@ public class Main {
         s1 = "222";
         s1 = "222";
         s1 = "333";
+
+        if (true) {
+            System.out.println(1/1);
+        }
     }
 
     long v1 = 2 * 100;
