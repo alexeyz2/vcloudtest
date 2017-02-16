@@ -12,6 +12,7 @@ public class Main {
         s1 = "333";
 
         if (true) {
+            System.out.println();
         }
     }
 
