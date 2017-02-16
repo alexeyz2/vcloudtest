@@ -7,9 +7,7 @@ public class Main {
     }
 
     void nonFinalMethod(String s1) {
-        s1 = "222";
-        s1 = "222";
-        s1 = "333";
+        s1 = "222"; s1 = "333"; s1 = "222";
 
         if (true) {
             System.out.println();
