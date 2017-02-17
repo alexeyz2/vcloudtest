@@ -36,7 +36,6 @@ public class JGitTest {
                     JSch defaultJSch = super.createDefaultJSch( fs );
                     defaultJSch.addIdentity("/Users/az/.ssh/id_rsa");
                     return defaultJSch;
-
                 }
             };
 
