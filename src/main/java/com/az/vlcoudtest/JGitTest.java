@@ -34,6 +34,7 @@ public class JGitTest {
                 protected JSch createDefaultJSch(FS fs ) throws JSchException {
                     JSch defaultJSch = super.createDefaultJSch( fs );
                     defaultJSch.addIdentity("/Users/az/.ssh/id_rsa");
+
                     return defaultJSch;
                 }
             };
