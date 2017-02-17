@@ -30,7 +30,7 @@ public class JGitTest {
                 protected void configure(OpenSshConfig.Host host, Session session) {
                     session.setConfig("StrictHostKeyChecking", "no");
                 }
-
+                @Override
                 @Override
                 protected JSch createDefaultJSch(FS fs ) throws JSchException {
                     JSch defaultJSch = super.createDefaultJSch( fs );
