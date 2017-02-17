@@ -39,6 +39,7 @@ public class JGitTest {
                 }
             };
 
+
             Git git = Git.cloneRepository()
                     .setURI(repoUri)
                     .setDirectory(new File(localCheckoutPath))
