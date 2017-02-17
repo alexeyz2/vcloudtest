@@ -22,7 +22,7 @@ public class Main {
         System.out.println("Thanks to God its Friday");
 
         System.out.println("vCloud knows how to wait...");
-        System.out.println("on-premise...");
+        System.out.println("on-premise commit...");
         return true;
     }
 
