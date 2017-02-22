@@ -9,12 +9,23 @@ public class Main {
     void nonFinalMethod(String s1) {
         s1 = "222"; s1 = "333"; s1 = "222";
 
+        try {
+            wait(1);
+        } catch (InterruptedException e) {
+            // Swallow
+        }
+
         if (true) {
             System.out.println();
         }
     }
 
     long v1 = 2 * 100;
+
+    int i2 = 2 * 10000000;
+
+    public String str = "";
+
 
     public boolean doIt() {
         System.out.println("Hellow World!");
