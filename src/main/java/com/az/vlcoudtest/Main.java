@@ -26,7 +26,6 @@ public class Main {
 
     public String str = "";
 
-
     public boolean doIt() {
         System.out.println("Hellow World!");
         System.out.println("Its a bit vCloudy today");
