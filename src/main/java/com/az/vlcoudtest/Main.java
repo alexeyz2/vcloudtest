@@ -18,9 +18,7 @@ public class Main {
         if (true) {
             System.out.println();
         }
-    }
-
-    long v1 = 2 * 100;
+    } long v1 = 2 * 100;
 
     int i2 = 2 * 10000000;
 
