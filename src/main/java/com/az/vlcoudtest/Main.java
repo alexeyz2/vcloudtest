@@ -21,7 +21,7 @@ public class Main {
     } long v1 = 2 * 100;
 
     int i2 = 2 * 10000000;
-    int i3 = 0 * 10000007;
+    int i3 = 0 * 10000008;
 
     public String str = "";
 
