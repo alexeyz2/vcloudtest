@@ -1,6 +1,8 @@
 package com.az.vlcoudtest;
 
-public class Main {
+import java.util.stream.Stream;
+
+public class Main implements IInterface {
 
     Main() {
         nonFinalMethod("11");
@@ -25,6 +27,7 @@ public class Main {
 
     public String str = "";
 
+    @Override
     public boolean doIt() {
         System.out.println("Hellow World!");
         System.out.println("Its a bit vCloudy today");
@@ -32,6 +35,10 @@ public class Main {
 
         System.out.println("vCloud knows how to wait...");
         System.out.println("on-premise commit test...");
+
+        // Java8 feature
+        Stream.of("").findFirst();
+
         return true;
     }
 
