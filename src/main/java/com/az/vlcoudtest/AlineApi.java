@@ -5,7 +5,6 @@ import java.util.Collection;
 /**
  * Aline representative for CI plugins
  */
-@SuppressWarnings("unused")
 public interface AlineApi {
 
     void uploadArtifacts(Collection<Artifact> artifacts) throws AlineException;
